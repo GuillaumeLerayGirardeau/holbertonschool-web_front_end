@@ -109,7 +109,7 @@ a:active {
     text-align: center;
 }
 
-.nav.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -118,9 +118,13 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-nav.nav-link {
+nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 
 .section-body {
@@ -151,10 +155,6 @@ nav.nav-link {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-nav.nav-link:hover {
-    color: var(--nav-item-link-hover);
 }
 
 h1, h2, h3, h4, h5, h6{
