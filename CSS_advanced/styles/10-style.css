@@ -51,7 +51,7 @@ a {
     color: var(--color-primary);
 }
 
-section-header {
+.section-header {
     margin: var(--section-header-align);
 }
 
