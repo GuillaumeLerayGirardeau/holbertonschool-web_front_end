@@ -156,9 +156,10 @@ a:active {
 }
 
 .nav .nav-link::before {
-    content: "empty";
+    content: "";
     position: absolute;
-    position: 0 0;
+    top: 0;
+    left: 0;
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
